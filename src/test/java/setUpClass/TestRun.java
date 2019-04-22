@@ -6,10 +6,14 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"."},
-plugin ={
-		"pretty", "html:target/cucumber-report","json:target/cucumber.json", "usage:target/usage.jsonx", "junit:target/cucumber.xml"})	
+@CucumberOptions(features = {"."},tags= {"@signup_test,@afterlogin_add_paitent "},
+
 //plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
+
+plugin = { "html:target/site/cucumber-pretty",
+"json:target/cucumber.json" }, 
+glue = { "helpers", "setUpClass.StepDefinition" }, 
+monochrome = true)
 public class TestRun {
 
 	@BeforeClass

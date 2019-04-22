@@ -1,4 +1,4 @@
-package Object_Element;
+package object_Element;
 
 import java.awt.AWTException;
 import java.awt.Robot;

@@ -1,8 +1,8 @@
-package Object_Element;
+package object_Element;
 
 import org.openqa.selenium.By;
 
-public class Object_element {
+public class Signup_element {
 	
 	//Login opject and SignUp object
 	public static By Join_now=By.xpath("(//a[text()='Join Now'])[2]");
