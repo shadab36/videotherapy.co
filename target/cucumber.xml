@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="14" time="133.664134">
+<testcase classname="Sign up test on the videotherapy.co application" name="" time="11.195482">
+<system-out><![CDATA[Given navigate the application URL..........................................passed
+Then Click on Join now button...............................................passed
+Then Click on Clinician image...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="Signup test with invalid data." time="7.063914">
+<system-out><![CDATA[Then Enter User First Name as ""............................................passed
+Then Enter User Email Address as "".........................................passed
+Then Enter User Password as ""..............................................passed
+Then Select Terms & Conditions check box....................................passed
+Then Click on SignUp CTA....................................................passed
+Then Verify "Please fill out this field." validation message for First Name..passed
+Then Verify "Please fill out this field." validation message for Email Address..passed
+Then Verify "Please fill out this field." validation message for Password...passed
+Then Verify "" user is already existing or not..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="Signup test with invalid data. 2" time="6.751007">
+<system-out><![CDATA[Then Enter User First Name as "Test"........................................passed
+Then Enter User Email Address as "".........................................passed
+Then Enter User Password as ""..............................................passed
+Then Select Terms & Conditions check box....................................passed
+Then Click on SignUp CTA....................................................passed
+Then Verify "" validation message for First Name............................passed
+Then Verify "Please fill out this field." validation message for Email Address..passed
+Then Verify "Please fill out this field." validation message for Password...passed
+Then Verify "" user is already existing or not..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="Signup test with invalid data. 3" time="6.828654">
+<system-out><![CDATA[Then Enter User First Name as "Test"........................................passed
+Then Enter User Email Address as "Test@@gmail.com"..........................passed
+Then Enter User Password as ""..............................................passed
+Then Select Terms & Conditions check box....................................passed
+Then Click on SignUp CTA....................................................passed
+Then Verify "" validation message for First Name............................passed
+Then Verify "A part following '@' should not contain the symbol '@'." validation message for Email Address..passed
+Then Verify "Please fill out this field." validation message for Password...passed
+Then Verify "" user is already existing or not..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="Signup test with invalid data. 4" time="6.684355">
+<system-out><![CDATA[Then Enter User First Name as "Test"........................................passed
+Then Enter User Email Address as "Test@gmail.com"...........................passed
+Then Enter User Password as ""..............................................passed
+Then Select Terms & Conditions check box....................................passed
+Then Click on SignUp CTA....................................................passed
+Then Verify "" validation message for First Name............................passed
+Then Verify "" validation message for Email Address.........................passed
+Then Verify "Please fill out this field." validation message for Password...passed
+Then Verify "" user is already existing or not..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="Signup test with invalid data. 5" time="6.755427">
+<system-out><![CDATA[Then Enter User First Name as "Test"........................................passed
+Then Enter User Email Address as "Test@getnada.com".........................passed
+Then Enter User Password as "1234"..........................................passed
+Then Select Terms & Conditions check box....................................passed
+Then Click on SignUp CTA....................................................passed
+Then Verify "" validation message for First Name............................passed
+Then Verify "" validation message for Email Address.........................passed
+Then Verify "Please match the requested format." validation message for Password..passed
+Then Verify "" user is already existing or not..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="Signup test with invalid data. 6" time="6.760826">
+<system-out><![CDATA[Then Enter User First Name as "Test"........................................passed
+Then Enter User Email Address as "Test@getnada.com".........................passed
+Then Enter User Password as "12345678"......................................passed
+Then Select Terms & Conditions check box....................................passed
+Then Click on SignUp CTA....................................................passed
+Then Verify "" validation message for First Name............................passed
+Then Verify "" validation message for Email Address.........................passed
+Then Verify "" validation message for Password..............................passed
+Then Verify "" user is already existing or not..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="" time="4.403124">
+<system-out><![CDATA[Then Refresh the page.......................................................passed
+Then Click on Join now button...............................................passed
+Then Click on Clinician image...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="Data driving for valid sign-up." time="7.481819">
+<system-out><![CDATA[Then Enter User First Name as "Test"........................................passed
+Then Enter Email "test".....................................................passed
+Then Enter User Password as "12345678"......................................passed
+Then Select Terms & Conditions check box....................................passed
+Then Click on SignUp CTA....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="" time="49.431209">
+<failure message="org.openqa.selenium.ElementNotVisibleException: element not interactable&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'&#10;System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\ALMOIN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}&#10;Session ID: 9fdca5e4a7f450ee567a689af9da6c4b&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)&#13;&#10;&#9;at setUpClass.StepDefinition.SignUp_step.setclickmethod(SignUp_step.java:349)&#13;&#10;&#9;at setUpClass.StepDefinition.SignUp_step.logout(SignUp_step.java:304)&#13;&#10;&#9;at ✽.Then Click on Logout button.(src/test/resources/1Signup.feature:54)&#13;&#10;"><![CDATA[Then Close the Popup alert message..........................................passed
+Then click on "Next" button.................................................passed
+Then Fill last name and select radio button.................................passed
+Then click on "Next" button.................................................passed
+Then Select Degree Title....................................................passed
+Then Select Experience Title................................................passed
+Then click on "Next" button.................................................passed
+Then Select registarion code as "NO"........................................passed
+Then click on "Next" button.................................................passed
+Then Click on Finish Button.................................................passed
+Then Hover on the profile image icon........................................passed
+Then Click on Logout button.................................................failed
+
+StackTrace:
+org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\ALMOIN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 9fdca5e4a7f450ee567a689af9da6c4b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at setUpClass.StepDefinition.SignUp_step.setclickmethod(SignUp_step.java:349)
+	at setUpClass.StepDefinition.SignUp_step.logout(SignUp_step.java:304)
+	at ✽.Then Click on Logout button.(src/test/resources/1Signup.feature:54)
+]]></failure>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="" time="20.308317">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()='Log In'])[2]&quot;}&#10;  (Session info: chrome=73.0.3683.103)&#10;  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'&#10;System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\ALMOIN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}&#10;Session ID: 9fdca5e4a7f450ee567a689af9da6c4b&#10;*** Element info: {Using=xpath, value=(//a[text()='Log In'])[2]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)&#13;&#10;&#9;at setUpClass.StepDefinition.SignUp_step.login(SignUp_step.java:323)&#13;&#10;&#9;at ✽.Then Login the application.(src/test/resources/1Signup.feature:57)&#13;&#10;"><![CDATA[Then Login the application..................................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Log In'])[2]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'AMW-G1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\Users\ALMOIN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 9fdca5e4a7f450ee567a689af9da6c4b
+*** Element info: {Using=xpath, value=(//a[text()='Log In'])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at setUpClass.StepDefinition.SignUp_step.login(SignUp_step.java:323)
+	at ✽.Then Login the application.(src/test/resources/1Signup.feature:57)
+]]></failure>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="" time="0">
+<skipped><![CDATA[When Add the new "Add Patient"..............................................undefined
+Then Enter "FirstName" and "LastName".......................................undefined
+Then Select Gender..........................................................undefined
+Then Enter Email address....................................................undefined
+Then Click on "Next" button.................................................undefined
+Then Enter user "Height" and Weight.........................................undefined
+Then Select main affected body part.........................................undefined
+Then Click on "Next" button.................................................undefined
+Then Select additional involved body part...................................undefined
+Then Click on "Next" button.................................................undefined
+Then select Related symptoms................................................undefined
+Then Select patient suffered from this problem option.......................undefined
+Then Click on "create care plan"............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Sign up test on the videotherapy.co application" name="" time="0">
+<skipped><![CDATA[When Click on play "LIBRARY" button.........................................undefined
+Then Click on "Add Workout" button..........................................undefined
+Then Enter Workout name and add Muscles strength............................undefined
+Then Finish the workout.....................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Assign workout to a patient" name="Assign workout to a patient." time="0">
+<skipped><![CDATA[When Click on "attach" icon.................................................undefined
+Then Click on patientItem list..............................................undefined
+Then Click on  Assign to patients Button....................................undefined
+Then Click on "Procced" option..............................................undefined
+Then Slect the current date and slect the start time........................undefined
+Then Submit the applicaton..................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

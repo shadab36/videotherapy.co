@@ -1,0 +1,3 @@
+setUpClass\BrowserSetUp.class
+setUpClass\StepDefinition\SignUp_step.class
+setUpClass\TestRun.class

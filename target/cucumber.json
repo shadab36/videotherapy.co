@@ -1,0 +1,1834 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8777587100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate the application URL.",
+            "match": {
+              "location": "SignUp_step.open_the_website_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 727476200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Join now button.",
+            "match": {
+              "location": "SignUp_step.click_on_Sign_up_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1690418900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Clinician image.",
+            "match": {
+              "location": "SignUp_step.Clinician_image()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Signup test with invalid data.",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;signup-test-with-invalid-data.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2773118300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter User First Name as \"\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "SignUp_step.enter_User_First_Name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1671343700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User Email Address as \"\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 29
+                }
+              ],
+              "location": "SignUp_step.enter_User_Email_Address_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1667737700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter User Password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                }
+              ],
+              "location": "SignUp_step.enter_User_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23599600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Terms \u0026 Conditions check box.",
+            "match": {
+              "location": "SignUp_step.select_Terms_Conditions_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 783628500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on SignUp CTA.",
+            "match": {
+              "location": "SignUp_step.click_on_SignUp_CTA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38917200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify \"Please fill out this field.\" validation message for First Name.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30403900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify \"Please fill out this field.\" validation message for Email Address.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24300200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify \"Please fill out this field.\" validation message for Password.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Password(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50864700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify \"\" user is already existing or not.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.error_messge_regitered_user(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@signup_test"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Signup test with invalid data.",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;signup-test-with-invalid-data.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2703584100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter User First Name as \"Test\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                }
+              ],
+              "location": "SignUp_step.enter_User_First_Name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1637987800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User Email Address as \"\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 29
+                }
+              ],
+              "location": "SignUp_step.enter_User_Email_Address_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1637776900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter User Password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                }
+              ],
+              "location": "SignUp_step.enter_User_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13285500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Terms \u0026 Conditions check box.",
+            "match": {
+              "location": "SignUp_step.select_Terms_Conditions_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 567527700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on SignUp CTA.",
+            "match": {
+              "location": "SignUp_step.click_on_SignUp_CTA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22401500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify \"\" validation message for First Name.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37233500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify \"Please fill out this field.\" validation message for Email Address.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34572400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify \"Please fill out this field.\" validation message for Password.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Password(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96637800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify \"\" user is already existing or not.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.error_messge_regitered_user(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@signup_test"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Signup test with invalid data.",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;signup-test-with-invalid-data.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2771300800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter User First Name as \"Test\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                }
+              ],
+              "location": "SignUp_step.enter_User_First_Name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1701529400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User Email Address as \"Test@@gmail.com\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "SignUp_step.enter_User_Email_Address_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1636968800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter User Password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                }
+              ],
+              "location": "SignUp_step.enter_User_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16284600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Terms \u0026 Conditions check box.",
+            "match": {
+              "location": "SignUp_step.select_Terms_Conditions_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 574703400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on SignUp CTA.",
+            "match": {
+              "location": "SignUp_step.click_on_SignUp_CTA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21832000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify \"\" validation message for First Name.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25466900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify \"A part following \u0027@\u0027 should not contain the symbol \u0027@\u0027.\" validation message for Email Address.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A part following \u0027@\u0027 should not contain the symbol \u0027@\u0027.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27388000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify \"Please fill out this field.\" validation message for Password.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Password(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53179700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify \"\" user is already existing or not.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.error_messge_regitered_user(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@signup_test"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Signup test with invalid data.",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;signup-test-with-invalid-data.;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2651990300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter User First Name as \"Test\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                }
+              ],
+              "location": "SignUp_step.enter_User_First_Name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1735185900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User Email Address as \"Test@gmail.com\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@gmail.com",
+                  "offset": 29
+                }
+              ],
+              "location": "SignUp_step.enter_User_Email_Address_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1635155700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter User Password as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 24
+                }
+              ],
+              "location": "SignUp_step.enter_User_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7811300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Terms \u0026 Conditions check box.",
+            "match": {
+              "location": "SignUp_step.select_Terms_Conditions_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 559046800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on SignUp CTA.",
+            "match": {
+              "location": "SignUp_step.click_on_SignUp_CTA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22025400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify \"\" validation message for First Name.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20066100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify \"\" validation message for Email Address.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18905000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify \"Please fill out this field.\" validation message for Password.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please fill out this field.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Password(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34168900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify \"\" user is already existing or not.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.error_messge_regitered_user(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@signup_test"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Signup test with invalid data.",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;signup-test-with-invalid-data.;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2686562300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter User First Name as \"Test\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                }
+              ],
+              "location": "SignUp_step.enter_User_First_Name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1716163900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User Email Address as \"Test@getnada.com\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@getnada.com",
+                  "offset": 29
+                }
+              ],
+              "location": "SignUp_step.enter_User_Email_Address_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1644054800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter User Password as \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 24
+                }
+              ],
+              "location": "SignUp_step.enter_User_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10746900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Terms \u0026 Conditions check box.",
+            "match": {
+              "location": "SignUp_step.select_Terms_Conditions_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 568039400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on SignUp CTA.",
+            "match": {
+              "location": "SignUp_step.click_on_SignUp_CTA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25718300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify \"\" validation message for First Name.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42390900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify \"\" validation message for Email Address.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28328500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify \"Please match the requested format.\" validation message for Password.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please match the requested format.",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Password(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33422500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify \"\" user is already existing or not.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.error_messge_regitered_user(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@signup_test"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Signup test with invalid data.",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;signup-test-with-invalid-data.;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2641133800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter User First Name as \"Test\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                }
+              ],
+              "location": "SignUp_step.enter_User_First_Name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1755742600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User Email Address as \"Test@getnada.com\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@getnada.com",
+                  "offset": 29
+                }
+              ],
+              "location": "SignUp_step.enter_User_Email_Address_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1682531500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter User Password as \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 24
+                }
+              ],
+              "location": "SignUp_step.enter_User_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11200200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Select Terms \u0026 Conditions check box.",
+            "match": {
+              "location": "SignUp_step.select_Terms_Conditions_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 577319200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on SignUp CTA.",
+            "match": {
+              "location": "SignUp_step.click_on_SignUp_CTA()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19857100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Verify \"\" validation message for First Name.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17650700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify \"\" validation message for Email Address.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22665100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify \"\" validation message for Password.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.verify_validation_message_for_Password(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32725800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify \"\" user is already existing or not.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 8
+                }
+              ],
+              "location": "SignUp_step.error_messge_regitered_user(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@signup_test"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2156953700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Refresh the page.",
+            "match": {
+              "location": "SignUp_step.refresh_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 616982900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on Join now button.",
+            "match": {
+              "location": "SignUp_step.click_on_Sign_up_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1629186900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on Clinician image.",
+            "match": {
+              "location": "SignUp_step.Clinician_image()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 26,
+            "name": "@signupTest_valid"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Data driving for valid sign-up.",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;data-driving-for-valid-sign-up.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2721461600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter User First Name as \"Test\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test",
+                  "offset": 26
+                }
+              ],
+              "location": "SignUp_step.enter_User_First_Name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2408051900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Enter Email \"test\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 13
+                }
+              ],
+              "location": "SignUp_step.enter_new_mail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1715741900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Enter User Password as \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345678",
+                  "offset": 24
+                }
+              ],
+              "location": "SignUp_step.enter_User_Password_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22268400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Select Terms \u0026 Conditions check box.",
+            "match": {
+              "location": "SignUp_step.select_Terms_Conditions_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 614295000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click on SignUp CTA.",
+            "match": {
+              "location": "SignUp_step.click_on_SignUp_CTA()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@signup_test"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9633075200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Close the Popup alert message.",
+            "match": {
+              "location": "SignUp_step.close_popup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 675628900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "click on \"Next\" button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Next",
+                  "offset": 10
+                }
+              ],
+              "location": "SignUp_step.click_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2375145800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Fill last name and select radio button.",
+            "match": {
+              "location": "SignUp_step.fill_last_name_and_select_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 625033900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "click on \"Next\" button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Next",
+                  "offset": 10
+                }
+              ],
+              "location": "SignUp_step.click_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2747382100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Select Degree Title.",
+            "match": {
+              "location": "SignUp_step.select_Degree_and_Experience_Title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3418650400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Select Experience Title.",
+            "match": {
+              "location": "SignUp_step.experience_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 610120900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "click on \"Next\" button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Next",
+                  "offset": 10
+                }
+              ],
+              "location": "SignUp_step.click_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1581221400,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Select registarion code as \"NO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NO",
+                  "offset": 28
+                }
+              ],
+              "location": "SignUp_step.select_registarion_code_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 587987300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "click on \"Next\" button.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Next",
+                  "offset": 10
+                }
+              ],
+              "location": "SignUp_step.click_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1113156100,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Click on Finish Button.",
+            "match": {
+              "location": "SignUp_step.click_on_Finish_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1075397600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Hover on the profile image icon.",
+            "match": {
+              "location": "SignUp_step.profile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24988409000,
+              "error_message": "org.openqa.selenium.ElementNotVisibleException: element not interactable\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027AMW-G1\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\\Users\\ALMOIN~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 9fdca5e4a7f450ee567a689af9da6c4b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat setUpClass.StepDefinition.SignUp_step.setclickmethod(SignUp_step.java:349)\r\n\tat setUpClass.StepDefinition.SignUp_step.logout(SignUp_step.java:304)\r\n\tat ✽.Then Click on Logout button.(src/test/resources/1Signup.feature:54)\r\n",
+              "status": "failed"
+            },
+            "line": 54,
+            "name": "Click on Logout button.",
+            "match": {
+              "location": "SignUp_step.logout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 41,
+            "name": "@follow_the_instructions"
+          }
+        ]
+      },
+      {
+        "line": 56,
+        "name": "",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20308317300,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[text()\u003d\u0027Log In\u0027])[2]\"}\n  (Session info: chrome\u003d73.0.3683.103)\n  (Driver info: chromedriver\u003d73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027AMW-G1\u0027, ip: \u002710.0.75.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: C:\\Users\\ALMOIN~1\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}\nSession ID: 9fdca5e4a7f450ee567a689af9da6c4b\n*** Element info: {Using\u003dxpath, value\u003d(//a[text()\u003d\u0027Log In\u0027])[2]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat setUpClass.StepDefinition.SignUp_step.login(SignUp_step.java:323)\r\n\tat ✽.Then Login the application.(src/test/resources/1Signup.feature:57)\r\n",
+              "status": "failed"
+            },
+            "line": 57,
+            "name": "Login the application.",
+            "match": {
+              "location": "SignUp_step.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign up test on the videotherapy.co application",
+    "description": "",
+    "id": "sign-up-test-on-the-videotherapy.co-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/1Signup.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@signup_test"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Add the new \"Add Patient\".",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Enter \"FirstName\" and \"LastName\".",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Select Gender",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Enter Email address.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Click on \"Next\" button.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Enter user \"Height\" and Weight.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Select main affected body part.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Click on \"Next\" button.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Select additional involved body part.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Click on \"Next\" button.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "select Related symptoms.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Select patient suffered from this problem option.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Click on \"create care plan\".",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign up test on the videotherapy.co application",
+    "description": "",
+    "id": "sign-up-test-on-the-videotherapy.co-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/2Add_New_Patient.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@afterlogin_add_paitent"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "sign-up-test-on-the-videotherapy.co-application;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Click on play \"LIBRARY\" button.",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Click on \"Add Workout\" button.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Enter Workout name and add Muscles strength.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Finish the workout.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign up test on the videotherapy.co application",
+    "description": "",
+    "id": "sign-up-test-on-the-videotherapy.co-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/3Add_Workout.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Add__new_Workout"
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Assign workout to a patient.",
+        "description": "",
+        "id": "assign-workout-to-a-patient;assign-workout-to-a-patient.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Click on \"attach\" icon.",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Click on patientItem list.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Click on  Assign to patients Button.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Click on \"Procced\" option.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Slect the current date and slect the start time.",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Submit the applicaton.",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Assign workout to a patient",
+    "description": "",
+    "id": "assign-workout-to-a-patient",
+    "keyword": "Feature",
+    "uri": "src/test/resources/4Assignworkout_to_ a_patient.feature"
+  }
+]
