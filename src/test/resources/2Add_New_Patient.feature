@@ -1,5 +1,5 @@
 @afterlogin_add_paitent 
-Feature: Sign up test on the videotherapy.co application 
+Feature: Add new Patient videotherapy.co application 
 Scenario: 
 	When Add the new "Add Patient". 
 	Then Enter "FirstName" and "LastName". 
@@ -7,8 +7,8 @@ Scenario:
 	Then Enter Email address. 
 	Then Click on Next "Next" button. 
 	Then Enter user Height and Weight.
-	Then Select main affected body part. 
-	Then Click on Next "Next" button.   
+	Then Click on Next "Next" button. 
+	Then Select main affected body part.    
 	Then Select additional involved body part. 
 	Then Click on Next "Next" button. 
 	Then select Related symptoms. 

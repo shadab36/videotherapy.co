@@ -6,13 +6,13 @@ import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"."},tags= {"@signup_test,@afterlogin_add_paitent "},
+@CucumberOptions(features = {"."},
 
 //plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"},
 
 plugin = { "html:target/site/cucumber-pretty",
 "json:target/cucumber.json" }, 
-glue = { "helpers", "setUpClass.StepDefinition" }, 
+glue = { "helpers", "setUpClass.StepDefinition"}, 
 monochrome = true)
 public class TestRun {
 

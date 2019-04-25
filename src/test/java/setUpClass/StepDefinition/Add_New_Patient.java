@@ -3,6 +3,7 @@ package setUpClass.StepDefinition;
 import java.util.List;
 import java.util.Random;
 
+import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -11,7 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.java.ro.Si;
 import object_Element.Add_New_Patient_element;
 import object_Element.Signup_element;
 import setUpClass.BrowserSetUp;
@@ -95,11 +95,15 @@ public class Add_New_Patient extends BrowserSetUp{
 
 	@Then("^Select Gender$")
 	public void select_Gender() throws Throwable {
-	   
+	   try {
+		   
 		List<WebElement> Radio=driver.findElements(Add_New_Patient_element.Radio_button);	
 		int randomValue = rad.nextInt(Radio.size()); // Getting a random value that is between 0 and (list's size)-1
 		Radio.get(randomValue).click();
 		Thread.sleep(2000);
+	   }catch(Exception e) {
+			System.out.println(e);
+		}
 	}
 
 	@Then("^Enter Email address\\.$")
@@ -114,18 +118,19 @@ public class Add_New_Patient extends BrowserSetUp{
 	public void click_on_button(String arg1) throws Throwable {
 		webelement= driver.findElement(Add_New_Patient_element.Next_page);
 		webelement.click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 
 	@Then("^Enter user Height and Weight\\.$")
 	public void enter_user_and_Weight() throws Throwable {
+		
 		WebDriverWait wait1 = new WebDriverWait(driver, 30);
 		wait1.until(ExpectedConditions.visibilityOfElementLocated(Signup_element.close_alert_mesage)); 
 		try {
 			 js.executeScript("return document.getElementsByClassName('joyride-tooltip__close')[0].click();"); 
 			 Thread.sleep(500);
 		}catch(Exception e) {
-			System.out.println(e);
+			Assert.fail("Alert message is not dispalyed");
 		}
 	    
 		try {
@@ -156,7 +161,7 @@ public class Add_New_Patient extends BrowserSetUp{
 		try {
 			webelement= driver.findElement(Add_New_Patient_element.affected);
 			webelement.click();
-			wait.implictywait(driver);
+			Thread.sleep(1000);
 		}catch(Exception e) {
 			System.out.println(e);
 		}
@@ -184,6 +189,8 @@ public class Add_New_Patient extends BrowserSetUp{
 
 	@Then("^Select additional involved body part\\.$")
 	public void select_additional_involved_body_part() throws Throwable {
+		
+	
 		try {
 		List<WebElement> Related_symptoms=driver.findElements(Add_New_Patient_element.Related_symptoms);	
 		int random = rad.nextInt(Related_symptoms.size()); // Getting a random value that is between 0 and (list's size)-1
@@ -223,7 +230,7 @@ public class Add_New_Patient extends BrowserSetUp{
 		try {
 			webelement= driver.findElement(Add_New_Patient_element.patient_suffered_duartion);
 			webelement.click();
-			wait.implictywait(driver);
+			Thread.sleep(500);
 			
 		}catch(Exception e) {
 			System.out.println(e);
@@ -255,8 +262,8 @@ public class Add_New_Patient extends BrowserSetUp{
 			webelement= driver.findElement(Add_New_Patient_element.create_paln);
 			webelement.click();
 			wait.implictywait(driver);
-			
-			
+			Thread.sleep(500);
+			log.info("create the Plan");
 		}catch(Exception e) {
 			System.out.println(e);
 		} }
