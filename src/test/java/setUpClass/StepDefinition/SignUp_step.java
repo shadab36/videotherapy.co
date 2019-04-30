@@ -189,13 +189,16 @@ public void enter_new_mail(String mail) throws Throwable{
 	log.info("Enter the random email address");
 }
 @Then ("^Close the Popup alert message\\.$")
-public void close_popup() throws Throwable{
+public void close_popup(){
 	try {
-		
 		webelement=	driver.findElement(Signup_element.Close_popup);
 		if(webelement.isDisplayed())
 		wait.implictywait(driver);
-		setclickmethod();
+		try {
+			setclickmethod();
+		} catch (InterruptedException e) {
+			
+		}
 	     log.info("close the poup alert message");
 	}catch(NoSuchElementException popup) {
 		System.out.println(popup);
@@ -333,9 +336,11 @@ public void login() throws Throwable{
 	
 	webelement = driver.findElement(Signup_element.Login_pass);
 	setsendmethod("12345678");
+
 	
 	webelement = driver.findElement(Signup_element.login_cta);
 	setclickmethod();
+	Thread.sleep(1000);
 	
 	
 	

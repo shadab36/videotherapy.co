@@ -36,7 +36,7 @@ Scenario Outline: Data driving for valid sign-up.
 	Then Click on SignUp CTA. 
 	Examples: 
 		|First Name | Email Address       | Password  |
-		|Test       |sel                  |12345678   |		
+		|Test       |seleniumqa           |12345678   |		
 		
 @follow_the_instructions 
 Scenario: 
@@ -55,5 +55,5 @@ Scenario:
 	
 	Scenario:
 	Then Login the application.
-	
+
 				                        

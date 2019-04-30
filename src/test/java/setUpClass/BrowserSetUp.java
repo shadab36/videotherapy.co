@@ -5,6 +5,7 @@ import java.net.URL;
 import java.util.Properties;
 import java.util.logging.Logger;
 
+import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.OutputType;
@@ -18,7 +19,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import cucumber.api.Scenario;
-import cucumber.api.java.After;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserSetUp {
@@ -76,7 +76,10 @@ public class BrowserSetUp {
 		else {
 	System.out.println("platform does not provide");
 		}	
+		
 		}
+
+
 	@AfterClass
 	public static void after_Class() throws InterruptedException {
 		driver.quit();

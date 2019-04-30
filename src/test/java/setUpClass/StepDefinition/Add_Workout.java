@@ -2,18 +2,17 @@ package setUpClass.StepDefinition;
 
 import java.util.List;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import object_Element.Add_New_Patient_element;
-import object_Element.Signup_element;
 import setUpClass.BrowserSetUp;
 import webApp.PerformAction;
 
@@ -23,9 +22,8 @@ public class Add_Workout extends BrowserSetUp{
 	Random rad = new Random();
 	String name = "" + rad.nextInt(100);
 	@When("^Click on play LIBRARY \"([^\"]*)\" button\\.$")
-	public void click_on_play_button(String arg1) throws Throwable {
-		WebDriverWait wait1 = new WebDriverWait(driver, 30);
-		wait1.until(ExpectedConditions.visibilityOfElementLocated(Signup_element.close_alert_mesage)); 
+	public void click_on_play_button(String arg1){
+		  driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 			try {
 						
 				for(int i=0; i<4; i++) {
@@ -33,14 +31,13 @@ public class Add_Workout extends BrowserSetUp{
 					 Thread.sleep(500);
 				}
 			}catch(Exception e) {
-				System.out.println(e);
+				
 			}
 			
 			try {
 				
 				webelement= driver.findElement(Add_New_Patient_element.Play_library);
 				webelement.click();
-				wait(20);
 				Thread.sleep(4000);
 			}catch(Exception e) {
 				System.out.println(e);
@@ -48,78 +45,107 @@ public class Add_Workout extends BrowserSetUp{
 	}
 
 	@Then ("^Click on Add Workout button\\.$")
-	public void add_workout() throws Throwable {	
+	public void add_workout() {	
 		
-		Thread.sleep(1000);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e1) {
+			
+		}
 		try {
 			
 			js.executeScript("return document.getElementsByClassName('title')[0].click();");
 			Thread.sleep(1000);
 			
 			}catch(Exception e) {
-				System.out.println(e);
+				
 			}
-		
-		
-		
-	
-		
 }
-	@Then("^Enter Workout name and add Muscles strength\\.$")
-	public void enter_Workout_name_and_add_Muscles_strength() throws Throwable {
-		Thread.sleep(2000);
-		try {
+	@Then("^Enter Workout name\\.$")
+	public void enter_Workout_name_and_add_Muscles_strength() throws Throwable{
+			  
+			
+				try {
+					Thread.sleep(6000);
+				} catch (InterruptedException e) {
+				
+				}
+			try {
 			for(int i=0; i<4; i++) {
 			 js.executeScript("return document.getElementsByClassName('joyride-tooltip__close')[0].click();"); 
-			 Thread.sleep(500);
-			}
-	}catch(Exception e) {
+			 Thread.sleep(2000);
 		
-	
-			
+			}
+	}catch(Exception exe) {
+		
 			}
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 30);
-			wait.until(ExpectedConditions.elementToBeClickable(Add_New_Patient_element.Workout_Name));	
-		webelement= driver.findElement(Add_New_Patient_element.Workout_Name);
-		if(webelement.isDisplayed()) {
-			webelement.click();
-			wait(10);	
-		webelement.sendKeys("WorkOut"+name);
-		wait(20);
-		}
-		}catch(Exception e) {
-			
-		}
+			js.executeScript("return document.documentElement.scrollTop = 0;");
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				
+			}
 		try {
-			List<WebElement> Muscles_strength=driver.findElements(Add_New_Patient_element.Muscles_strength);	
-			int randomValue = rad.nextInt(Muscles_strength.size()); // Getting a random value that is between 0 and (list's size)-1
+		WebElement Wname= driver.findElement(Add_New_Patient_element.Workout_Name);
+          Wname.click();
+		  Thread.sleep(1000);
+         Wname.sendKeys("WorkOut"+name);
+			Thread.sleep(2000);
+		}catch(NoSuchElementException  nsch) {
+			System.out.println(nsch);
+		}
+	}
+		
+	@Then("^Select the Muscles strength\\.$")
+	public void muscles_strength() {
+		try {
+			Thread.sleep(2000);
+			List<WebElement> Muscles_strength = driver.findElements(Add_New_Patient_element.Muscles_strength);
+			int randomValue = rad.nextInt(Muscles_strength.size()); // Getting a random value that is between 0 and
+																	// (list's size)-1
 			Muscles_strength.get(randomValue).click();
 			Thread.sleep(2000);
-		}catch(Exception e) {
-			
+		} catch (Exception e1) {
+
 		}
-		
+
+	}
+
+	@Then("^Finish the workout\\.$")
+	public void finish_the_workout() throws Throwable {
 		
 		try {
 			for(int i=0; i<2; i++) {
 			 js.executeScript("return document.getElementsByClassName('joyride-tooltip__close')[0].click();"); 
-			 Thread.sleep(500);
+			 Thread.sleep(1000);
 			}
 	}catch(Exception e) {
 		
 	}
 		
-	}
+		try {
+			js.executeScript("return document.documentElement.scrollTop = 0;");
+			Thread.sleep(2000);
+			
+			webelement= driver.findElement(By.cssSelector("span.wizardCtrls>div> div > button > div > div"));
+			webelement.click();
+			wait(20);
+			
+		}catch(Exception e) {
+			
+		}
+			
+		
 
-
-
-	@Then("^Finish the workout\\.$")
-	public void finish_the_workout() throws Throwable {
+		try {
 		webelement= driver.findElement(Add_New_Patient_element.finish);
 		if(webelement.isDisplayed()) {
 			webelement.click();
 			wait(10);	
+		}}catch(Exception e) {
+			
 		}
+			
+		
 	}
 }

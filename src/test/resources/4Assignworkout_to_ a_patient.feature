@@ -1,3 +1,4 @@
+@Assign_to_patient
 Feature: Assign workout to a patient
 Scenario: Assign workout to a patient.
 	When Click on attach "attach" icon.

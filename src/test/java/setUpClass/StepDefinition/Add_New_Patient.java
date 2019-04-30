@@ -34,7 +34,7 @@ public class Add_New_Patient extends BrowserSetUp{
 					 Thread.sleep(500);
 				}
 			}catch(Exception e) {
-				System.out.println(e);
+			
 			}
 			
 			try {
@@ -110,7 +110,7 @@ public class Add_New_Patient extends BrowserSetUp{
 	public void enter_Email_address() throws Throwable {
 		webelement= driver.findElement(Add_New_Patient_element.Email);
 		webelement.click();
-		webelement.sendKeys("qwr"+name+"@getnada.com");
+		webelement.sendKeys("qaautomation"+name+"@getnada.com");
 		Thread.sleep(1000);
 	}
 
