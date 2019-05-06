@@ -49,7 +49,8 @@ public class BrowserSetUp {
 		if ((local_chrome.equals("yes"))) {
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--disable-notifications");
+                                                                options.setExperimentalOption("useAutomationExtension", false);
+			//options.addArguments("--disable-notifications");
 			driver = new ChromeDriver(options);
 			driver.manage().window().maximize();
 			Thread.sleep(1000);
