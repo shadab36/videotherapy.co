@@ -39,25 +39,25 @@ formatter.match({
   "location": "SignUp_step.open_the_website_url()"
 });
 formatter.result({
-  "duration": 9438262700,
+  "duration": 9454682200,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_Sign_up_button()"
 });
 formatter.result({
-  "duration": 740519100,
+  "duration": 816021000,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.Clinician_image()"
 });
 formatter.result({
-  "duration": 1785962400,
+  "duration": 2091270600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 153800,
+  "duration": 427100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -303,7 +303,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_First_Name_as(String)"
 });
 formatter.result({
-  "duration": 2843290100,
+  "duration": 2778474700,
   "status": "passed"
 });
 formatter.match({
@@ -316,7 +316,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_Email_Address_as(String)"
 });
 formatter.result({
-  "duration": 1699683100,
+  "duration": 1729812300,
   "status": "passed"
 });
 formatter.match({
@@ -329,21 +329,21 @@ formatter.match({
   "location": "SignUp_step.enter_User_Password_as(String)"
 });
 formatter.result({
-  "duration": 1705465500,
+  "duration": 1675437400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.select_Terms_Conditions_check_box()"
 });
 formatter.result({
-  "duration": 33881200,
+  "duration": 28265200,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_SignUp_CTA()"
 });
 formatter.result({
-  "duration": 1091160500,
+  "duration": 978643000,
   "status": "passed"
 });
 formatter.match({
@@ -356,7 +356,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
 });
 formatter.result({
-  "duration": 50496600,
+  "duration": 44785500,
   "status": "passed"
 });
 formatter.match({
@@ -369,7 +369,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
 });
 formatter.result({
-  "duration": 45038600,
+  "duration": 47516900,
   "status": "passed"
 });
 formatter.match({
@@ -382,7 +382,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Password(String)"
 });
 formatter.result({
-  "duration": 63730300,
+  "duration": 47799200,
   "status": "passed"
 });
 formatter.match({
@@ -395,11 +395,11 @@ formatter.match({
   "location": "SignUp_step.error_messge_regitered_user(String)"
 });
 formatter.result({
-  "duration": 80034300,
+  "duration": 68322900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 43600,
+  "duration": 45200,
   "status": "passed"
 });
 formatter.scenario({
@@ -492,7 +492,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_First_Name_as(String)"
 });
 formatter.result({
-  "duration": 2739663500,
+  "duration": 2670021100,
   "status": "passed"
 });
 formatter.match({
@@ -505,7 +505,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_Email_Address_as(String)"
 });
 formatter.result({
-  "duration": 1797056800,
+  "duration": 1711308200,
   "status": "passed"
 });
 formatter.match({
@@ -518,21 +518,21 @@ formatter.match({
   "location": "SignUp_step.enter_User_Password_as(String)"
 });
 formatter.result({
-  "duration": 1823797200,
+  "duration": 1629200400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.select_Terms_Conditions_check_box()"
 });
 formatter.result({
-  "duration": 34984200,
+  "duration": 9179300,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_SignUp_CTA()"
 });
 formatter.result({
-  "duration": 630250400,
+  "duration": 580763700,
   "status": "passed"
 });
 formatter.match({
@@ -545,7 +545,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
 });
 formatter.result({
-  "duration": 37796900,
+  "duration": 54286400,
   "status": "passed"
 });
 formatter.match({
@@ -558,7 +558,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
 });
 formatter.result({
-  "duration": 46463600,
+  "duration": 47913800,
   "status": "passed"
 });
 formatter.match({
@@ -571,7 +571,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Password(String)"
 });
 formatter.result({
-  "duration": 58295900,
+  "duration": 48687100,
   "status": "passed"
 });
 formatter.match({
@@ -584,11 +584,11 @@ formatter.match({
   "location": "SignUp_step.error_messge_regitered_user(String)"
 });
 formatter.result({
-  "duration": 93416400,
+  "duration": 153222100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 65400,
+  "duration": 66000,
   "status": "passed"
 });
 formatter.scenario({
@@ -681,7 +681,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_First_Name_as(String)"
 });
 formatter.result({
-  "duration": 2871064700,
+  "duration": 2777328700,
   "status": "passed"
 });
 formatter.match({
@@ -694,7 +694,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_Email_Address_as(String)"
 });
 formatter.result({
-  "duration": 1935603600,
+  "duration": 1713868800,
   "status": "passed"
 });
 formatter.match({
@@ -707,21 +707,21 @@ formatter.match({
   "location": "SignUp_step.enter_User_Password_as(String)"
 });
 formatter.result({
-  "duration": 1797906000,
+  "duration": 1625098800,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.select_Terms_Conditions_check_box()"
 });
 formatter.result({
-  "duration": 12200900,
+  "duration": 8737900,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_SignUp_CTA()"
 });
 formatter.result({
-  "duration": 586338400,
+  "duration": 587323200,
   "status": "passed"
 });
 formatter.match({
@@ -734,7 +734,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
 });
 formatter.result({
-  "duration": 33376800,
+  "duration": 39689400,
   "status": "passed"
 });
 formatter.match({
@@ -747,7 +747,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
 });
 formatter.result({
-  "duration": 35140500,
+  "duration": 38435700,
   "status": "passed"
 });
 formatter.match({
@@ -760,7 +760,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Password(String)"
 });
 formatter.result({
-  "duration": 28154100,
+  "duration": 35804700,
   "status": "passed"
 });
 formatter.match({
@@ -773,11 +773,11 @@ formatter.match({
   "location": "SignUp_step.error_messge_regitered_user(String)"
 });
 formatter.result({
-  "duration": 62814400,
+  "duration": 50752200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 71400,
+  "duration": 45000,
   "status": "passed"
 });
 formatter.scenario({
@@ -870,7 +870,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_First_Name_as(String)"
 });
 formatter.result({
-  "duration": 2701570400,
+  "duration": 2676760700,
   "status": "passed"
 });
 formatter.match({
@@ -883,7 +883,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_Email_Address_as(String)"
 });
 formatter.result({
-  "duration": 1937699200,
+  "duration": 1750322400,
   "status": "passed"
 });
 formatter.match({
@@ -896,21 +896,21 @@ formatter.match({
   "location": "SignUp_step.enter_User_Password_as(String)"
 });
 formatter.result({
-  "duration": 1778682000,
+  "duration": 1636372900,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.select_Terms_Conditions_check_box()"
 });
 formatter.result({
-  "duration": 53456300,
+  "duration": 9568500,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_SignUp_CTA()"
 });
 formatter.result({
-  "duration": 597788100,
+  "duration": 580171200,
   "status": "passed"
 });
 formatter.match({
@@ -923,7 +923,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
 });
 formatter.result({
-  "duration": 43206800,
+  "duration": 25236900,
   "status": "passed"
 });
 formatter.match({
@@ -936,7 +936,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
 });
 formatter.result({
-  "duration": 43403600,
+  "duration": 21364900,
   "status": "passed"
 });
 formatter.match({
@@ -949,7 +949,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Password(String)"
 });
 formatter.result({
-  "duration": 36485500,
+  "duration": 23464000,
   "status": "passed"
 });
 formatter.match({
@@ -962,11 +962,11 @@ formatter.match({
   "location": "SignUp_step.error_messge_regitered_user(String)"
 });
 formatter.result({
-  "duration": 61041300,
+  "duration": 35986300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 80500,
+  "duration": 42800,
   "status": "passed"
 });
 formatter.scenario({
@@ -1059,7 +1059,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_First_Name_as(String)"
 });
 formatter.result({
-  "duration": 2758392200,
+  "duration": 2672338100,
   "status": "passed"
 });
 formatter.match({
@@ -1072,7 +1072,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_Email_Address_as(String)"
 });
 formatter.result({
-  "duration": 1841915500,
+  "duration": 1711067800,
   "status": "passed"
 });
 formatter.match({
@@ -1085,21 +1085,21 @@ formatter.match({
   "location": "SignUp_step.enter_User_Password_as(String)"
 });
 formatter.result({
-  "duration": 1779807400,
+  "duration": 1632312700,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.select_Terms_Conditions_check_box()"
 });
 formatter.result({
-  "duration": 33111300,
+  "duration": 7944000,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_SignUp_CTA()"
 });
 formatter.result({
-  "duration": 654557900,
+  "duration": 575549500,
   "status": "passed"
 });
 formatter.match({
@@ -1112,7 +1112,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
 });
 formatter.result({
-  "duration": 33479100,
+  "duration": 21120700,
   "status": "passed"
 });
 formatter.match({
@@ -1125,7 +1125,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
 });
 formatter.result({
-  "duration": 34163800,
+  "duration": 25588300,
   "status": "passed"
 });
 formatter.match({
@@ -1138,7 +1138,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Password(String)"
 });
 formatter.result({
-  "duration": 31926800,
+  "duration": 31503200,
   "status": "passed"
 });
 formatter.match({
@@ -1151,11 +1151,11 @@ formatter.match({
   "location": "SignUp_step.error_messge_regitered_user(String)"
 });
 formatter.result({
-  "duration": 44107800,
+  "duration": 36658100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 112600,
+  "duration": 49600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1248,7 +1248,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_First_Name_as(String)"
 });
 formatter.result({
-  "duration": 2869720700,
+  "duration": 2660805500,
   "status": "passed"
 });
 formatter.match({
@@ -1261,7 +1261,7 @@ formatter.match({
   "location": "SignUp_step.enter_User_Email_Address_as(String)"
 });
 formatter.result({
-  "duration": 2014518100,
+  "duration": 1713909800,
   "status": "passed"
 });
 formatter.match({
@@ -1274,21 +1274,21 @@ formatter.match({
   "location": "SignUp_step.enter_User_Password_as(String)"
 });
 formatter.result({
-  "duration": 1975320100,
+  "duration": 1683694800,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.select_Terms_Conditions_check_box()"
 });
 formatter.result({
-  "duration": 18356700,
+  "duration": 9402900,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_SignUp_CTA()"
 });
 formatter.result({
-  "duration": 710145000,
+  "duration": 583482100,
   "status": "passed"
 });
 formatter.match({
@@ -1301,7 +1301,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_First_Name(String)"
 });
 formatter.result({
-  "duration": 84405100,
+  "duration": 27344800,
   "status": "passed"
 });
 formatter.match({
@@ -1314,7 +1314,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Email_Address(String)"
 });
 formatter.result({
-  "duration": 36130500,
+  "duration": 27579800,
   "status": "passed"
 });
 formatter.match({
@@ -1327,7 +1327,7 @@ formatter.match({
   "location": "SignUp_step.verify_validation_message_for_Password(String)"
 });
 formatter.result({
-  "duration": 31686700,
+  "duration": 15813100,
   "status": "passed"
 });
 formatter.match({
@@ -1340,11 +1340,11 @@ formatter.match({
   "location": "SignUp_step.error_messge_regitered_user(String)"
 });
 formatter.result({
-  "duration": 50684000,
+  "duration": 42740300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 87700,
+  "duration": 62100,
   "status": "passed"
 });
 formatter.scenario({
@@ -1380,25 +1380,25 @@ formatter.match({
   "location": "SignUp_step.refresh_the_page()"
 });
 formatter.result({
-  "duration": 1595675000,
+  "duration": 1681932400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_Sign_up_button()"
 });
 formatter.result({
-  "duration": 640025600,
+  "duration": 682109600,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.Clinician_image()"
 });
 formatter.result({
-  "duration": 1724321500,
+  "duration": 1632283300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 37500,
+  "duration": 140600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1452,7 +1452,7 @@ formatter.examples({
     {
       "cells": [
         "Test",
-        "seleniumqa",
+        "seleniumqa169@getnada.com",
         "12345678"
       ],
       "line": 39,
@@ -1485,7 +1485,7 @@ formatter.step({
 });
 formatter.step({
   "line": 33,
-  "name": "Enter Email \"seleniumqa\".",
+  "name": "Enter Email \"seleniumqa169@getnada.com\".",
   "matchedColumns": [
     1
   ],
@@ -1519,20 +1519,20 @@ formatter.match({
   "location": "SignUp_step.enter_User_First_Name_as(String)"
 });
 formatter.result({
-  "duration": 2788104000,
+  "duration": 2693626100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "seleniumqa",
+      "val": "seleniumqa169@getnada.com",
       "offset": 13
     }
   ],
   "location": "SignUp_step.enter_new_mail(String)"
 });
 formatter.result({
-  "duration": 2733864200,
+  "duration": 2385374900,
   "status": "passed"
 });
 formatter.match({
@@ -1545,25 +1545,25 @@ formatter.match({
   "location": "SignUp_step.enter_User_Password_as(String)"
 });
 formatter.result({
-  "duration": 1932129500,
+  "duration": 1731091400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.select_Terms_Conditions_check_box()"
 });
 formatter.result({
-  "duration": 122701500,
+  "duration": 29266200,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_SignUp_CTA()"
 });
 formatter.result({
-  "duration": 630416900,
+  "duration": 591486500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 428400,
+  "duration": 57100,
   "status": "passed"
 });
 formatter.scenario({
@@ -1644,7 +1644,7 @@ formatter.match({
   "location": "SignUp_step.close_popup()"
 });
 formatter.result({
-  "duration": 9943979400,
+  "duration": 9113913500,
   "status": "passed"
 });
 formatter.match({
@@ -1657,14 +1657,14 @@ formatter.match({
   "location": "SignUp_step.click_on_button(String)"
 });
 formatter.result({
-  "duration": 783192200,
+  "duration": 746808600,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.fill_last_name_and_select_radio_button()"
 });
 formatter.result({
-  "duration": 2820658000,
+  "duration": 2394972500,
   "status": "passed"
 });
 formatter.match({
@@ -1677,21 +1677,21 @@ formatter.match({
   "location": "SignUp_step.click_on_button(String)"
 });
 formatter.result({
-  "duration": 720163200,
+  "duration": 601880100,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.select_Degree_and_Experience_Title()"
 });
 formatter.result({
-  "duration": 3008989000,
+  "duration": 2743725400,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.experience_title()"
 });
 formatter.result({
-  "duration": 3584970700,
+  "duration": 3509758600,
   "status": "passed"
 });
 formatter.match({
@@ -1704,7 +1704,7 @@ formatter.match({
   "location": "SignUp_step.click_on_button(String)"
 });
 formatter.result({
-  "duration": 702533000,
+  "duration": 612495200,
   "status": "passed"
 });
 formatter.match({
@@ -1717,7 +1717,7 @@ formatter.match({
   "location": "SignUp_step.select_registarion_code_as(String)"
 });
 formatter.result({
-  "duration": 1717334400,
+  "duration": 1579097400,
   "status": "passed"
 });
 formatter.match({
@@ -1730,32 +1730,32 @@ formatter.match({
   "location": "SignUp_step.click_on_button(String)"
 });
 formatter.result({
-  "duration": 611338500,
+  "duration": 588635700,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.click_on_Finish_Button()"
 });
 formatter.result({
-  "duration": 1166995200,
+  "duration": 1096287100,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.profile()"
 });
 formatter.result({
-  "duration": 5543705200,
+  "duration": 4980136800,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUp_step.logout()"
 });
 formatter.result({
-  "duration": 3738456600,
+  "duration": 3630407000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 80000,
+  "duration": 45600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1775,11 +1775,11 @@ formatter.match({
   "location": "SignUp_step.login()"
 });
 formatter.result({
-  "duration": 8715280100,
+  "duration": 7112505300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 64700,
+  "duration": 37400,
   "status": "passed"
 });
 formatter.uri("src/test/resources/2Add_New_Patient.feature");
@@ -1879,7 +1879,7 @@ formatter.match({
   "location": "Add_New_Patient.add_the_new(String)"
 });
 formatter.result({
-  "duration": 4173179000,
+  "duration": 3563237800,
   "status": "passed"
 });
 formatter.match({
@@ -1896,21 +1896,21 @@ formatter.match({
   "location": "Add_New_Patient.enter_and(String,String)"
 });
 formatter.result({
-  "duration": 1483616400,
+  "duration": 1321155600,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_New_Patient.select_Gender()"
 });
 formatter.result({
-  "duration": 2200314600,
+  "duration": 2113766500,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_New_Patient.enter_Email_address()"
 });
 formatter.result({
-  "duration": 2056075600,
+  "duration": 1744048000,
   "status": "passed"
 });
 formatter.match({
@@ -1923,14 +1923,14 @@ formatter.match({
   "location": "Add_New_Patient.click_on_button(String)"
 });
 formatter.result({
-  "duration": 2148490200,
+  "duration": 2125567700,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_New_Patient.enter_user_and_Weight()"
 });
 formatter.result({
-  "duration": 1299178100,
+  "duration": 1045153900,
   "status": "passed"
 });
 formatter.match({
@@ -1943,21 +1943,21 @@ formatter.match({
   "location": "Add_New_Patient.click_on_button(String)"
 });
 formatter.result({
-  "duration": 2235669900,
+  "duration": 2137088000,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_New_Patient.select_main_affected_body_part()"
 });
 formatter.result({
-  "duration": 5902358800,
+  "duration": 5398726200,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_New_Patient.select_additional_involved_body_part()"
 });
 formatter.result({
-  "duration": 2179758900,
+  "duration": 2096287700,
   "status": "passed"
 });
 formatter.match({
@@ -1970,21 +1970,21 @@ formatter.match({
   "location": "Add_New_Patient.click_on_button(String)"
 });
 formatter.result({
-  "duration": 2254844300,
+  "duration": 2142941400,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_New_Patient.select_Related_symptoms()"
 });
 formatter.result({
-  "duration": 2770818000,
+  "duration": 2633793900,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_New_Patient.select_patient_suffered_from_this_problem_option()"
 });
 formatter.result({
-  "duration": 5086307400,
+  "duration": 24025322900,
   "status": "passed"
 });
 formatter.match({
@@ -1997,11 +1997,11 @@ formatter.match({
   "location": "Add_New_Patient.click_on(String)"
 });
 formatter.result({
-  "duration": 708472900,
+  "duration": 763728700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 54500,
+  "duration": 174400,
   "status": "passed"
 });
 formatter.uri("src/test/resources/3Add_Workout.feature");
@@ -2061,41 +2061,39 @@ formatter.match({
   "location": "Add_Workout.click_on_play_button(String)"
 });
 formatter.result({
-  "duration": 4524586700,
+  "duration": 4451804200,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_Workout.add_workout()"
 });
 formatter.result({
-  "duration": 1678818900,
+  "duration": 1019913900,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_Workout.enter_Workout_name_and_add_Muscles_strength()"
 });
 formatter.result({
-  "duration": 22156264000,
+  "duration": 21363339700,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_Workout.muscles_strength()"
 });
 formatter.result({
-  "duration": 4351640100,
+  "duration": 23074858300,
   "status": "passed"
 });
 formatter.match({
   "location": "Add_Workout.finish_the_workout()"
 });
 formatter.result({
-  "duration": 24796339400,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#trainingEditor \u003e div.trainingTabHeader \u003e span:nth-child(5) \u003e div \u003e div \u003e button \u003e div \u003e div \u003e span\"}\n  (Session info: chrome\u003d74.0.3729.108)\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027AMW-G1\u0027, ip: \u0027169.254.33.173\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_131\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\\WINDOWS\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60426}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.108, webStorageEnabled: true}\nSession ID: fd9af2632690de24d657c4a731140e1a\n*** Element info: {Using\u003dcss selector, value\u003d#trainingEditor \u003e div.trainingTabHeader \u003e span:nth-child(5) \u003e div \u003e div \u003e button \u003e div \u003e div \u003e span}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:411)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)\r\n\tat setUpClass.StepDefinition.Add_Workout.finish_the_workout(Add_Workout.java:138)\r\n\tat ✽.Then Finish the workout.(src/test/resources/3Add_Workout.feature:8)\r\n",
-  "status": "failed"
+  "duration": 38263152200,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 420642000,
+  "duration": 54500,
   "status": "passed"
 });
 formatter.uri("src/test/resources/4Assignworkout_to_ a_patient.feature");

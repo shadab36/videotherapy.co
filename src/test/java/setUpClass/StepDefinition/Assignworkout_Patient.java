@@ -20,18 +20,21 @@ public class Assignworkout_Patient extends BrowserSetUp {
 		
 		
 		try {
-			WebDriverWait wait1 = new WebDriverWait(driver, 30);
-			wait1.until(ExpectedConditions.visibilityOfElementLocated(Signup_element.close_alert_mesage)); 
+			WebDriverWait wait = new WebDriverWait(driver, 60);
+			  wait.until(ExpectedConditions.elementToBeClickable(Signup_element.close_alert_mesage));
 			 js.executeScript("return document.getElementsByClassName('joyride-tooltip__close')[0].click();"); 
 			 Thread.sleep(500);
 		}catch(Exception e) {
 		}
 			try {
-				
+				js.executeScript("return document.documentElement.scrollTop = 500;");
+				WebDriverWait wait = new WebDriverWait(driver, 60);
+				  wait.until(ExpectedConditions.elementToBeClickable(Add_New_Patient_element.attach_icon));
+				  
 			webelement= driver.findElement(Add_New_Patient_element.attach_icon);
 			if(webelement.isDisplayed()) {
 				webelement.click();
-				wait(10);	
+				wait(20);	
 			}
 			}catch(Exception e) {
 				Assert.fail("attach icon is not displayed");
@@ -43,7 +46,9 @@ public class Assignworkout_Patient extends BrowserSetUp {
 	public void click_on_patientItem_list() throws Throwable {
 	    
 		try {
-			
+			js.executeScript("return document.documentElement.scrollTop = 500;");
+			WebDriverWait wait = new WebDriverWait(driver, 60);
+			  wait.until(ExpectedConditions.elementToBeClickable(Add_New_Patient_element.check_box));
 			webelement= driver.findElement(Add_New_Patient_element.check_box);
 			if(webelement.isDisplayed()) {
 				webelement.click();
@@ -57,9 +62,11 @@ public class Assignworkout_Patient extends BrowserSetUp {
 	@Then("^Click on Assign to patients Button\\.$")
 	public void click_on_Assign_to_patients_Button() throws Throwable {
    try {
-			
+	   js.executeScript("return document.documentElement.scrollTop = 0;");
+	   WebDriverWait wait = new WebDriverWait(driver, 60);
+		  wait.until(ExpectedConditions.elementToBeClickable(Add_New_Patient_element.Assign_patient));
 			webelement= driver.findElement(Add_New_Patient_element.Assign_patient);
-			if(webelement.isDisplayed()) {
+			if(webelement.isEnabled()) {
 				webelement.click();
 				wait(10);	
 			}
@@ -74,7 +81,8 @@ public class Assignworkout_Patient extends BrowserSetUp {
 	public void click_on_option(String arg1) throws Throwable {
 	    
 		  try {
-				
+			  WebDriverWait wait = new WebDriverWait(driver, 60);
+			  wait.until(ExpectedConditions.elementToBeClickable(Add_New_Patient_element.Assign_patient));
 				webelement= driver.findElement(Add_New_Patient_element.Proceed);
 				if(webelement.isDisplayed()) {
 					webelement.click();
@@ -94,7 +102,7 @@ public class Assignworkout_Patient extends BrowserSetUp {
 		webelement= driver.findElement(Add_New_Patient_element.Current_Day);
 		if(webelement.isDisplayed()) {
 			webelement.click();
-			wait(10);	
+			wait(20);	
 		}
 
 		}catch(Exception e) {

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="116" failures="2" name="setUpClass.TestRun" time="0.119" errors="4" skipped="5">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\ECOM_DemoTest\videotherapy_Auto"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\ECOM_DemoTest\videotherapy_Auto"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="F:\ECOM_DemoTest\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1618223018360654972.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_131\bin;F:\chhotu\AndroidSdk\tools;F:\chhotu\AndroidSdk\platform-tools;F:\chhotu\AndroidSdk\build-tools\27.0.3;C:\metasploit-framework\bin\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\PROGRA~2\Groovy\GROOVY~1.0\bin;C:\Program Files\PuTTY\;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;F:\galen-bin-2.3.6\galen-bin-2.3.6\;C:\WINDOWS\System32\OpenSSH\;F:\chhotu\AndroidSdk;C:\Program Files\nodejs\;C:\Python37;C:\Python37\Scripts;C:\Ruby24-x64\bin;C:\Ruby23-x64\bin;C:\Users\AL Moin Webtech\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\AL Moin Webtech\AppData\Local\GitHubDesktop\bin;C:\Users\AL Moin Webtech\AppData\Local\Microsoft\WindowsApps;C:\Users\AL Moin Webtech\AppData\Roaming\npm;;C:\Users\AL Moin Webtech\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\AL Moin Webtech"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="AL Moin Webtech"/>
+    <property name="java.class.path" value="C:\Users\AL Moin Webtech\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\ECOM_DemoTest\videotherapy_Auto\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: " name="Given navigate the application URL." time="0.014"/>
+  <testcase classname="Scenario: " name="Then Click on Join now button." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Clinician image." time="0"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0.002"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Enter User First Name as &quot;&quot;." time="0"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Enter User Email Address as &quot;&quot;." time="0"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Enter User Password as &quot;&quot;" time="0"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Select Terms &amp; Conditions check box." time="0"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Click on SignUp CTA." time="0"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Verify &quot;Please fill out this field.&quot; validation message for First Name." time="0"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Verify &quot;Please fill out this field.&quot; validation message for Email Address." time="0"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Verify &quot;Please fill out this field.&quot; validation message for Password." time="0.001"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="Then Verify &quot;&quot; user is already existing or not." time="0"/>
+  <testcase classname="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" name="|  |  |  | Please fill out this field. | Please fill out this field. | Please fill out this field. |  |" time="0.001"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Enter User First Name as &quot;Test&quot;." time="0"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Enter User Email Address as &quot;&quot;." time="0"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Enter User Password as &quot;&quot;" time="0"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Select Terms &amp; Conditions check box." time="0.001"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Click on SignUp CTA." time="0"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Verify &quot;&quot; validation message for First Name." time="0"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Verify &quot;Please fill out this field.&quot; validation message for Email Address." time="0"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Verify &quot;Please fill out this field.&quot; validation message for Password." time="0"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="Then Verify &quot;&quot; user is already existing or not." time="0"/>
+  <testcase classname="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" name="| Test |  |  |  | Please fill out this field. | Please fill out this field. |  |" time="0.002"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Enter User First Name as &quot;Test&quot;." time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Enter User Email Address as &quot;Test@@gmail.com&quot;." time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Enter User Password as &quot;&quot;" time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Select Terms &amp; Conditions check box." time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Click on SignUp CTA." time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Verify &quot;&quot; validation message for First Name." time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Verify &quot;A part following &apos;@&apos; should not contain the symbol &apos;@&apos;.&quot; validation message for Email Address." time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Verify &quot;Please fill out this field.&quot; validation message for Password." time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="Then Verify &quot;&quot; user is already existing or not." time="0"/>
+  <testcase classname="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" name="| Test | Test@@gmail.com |  |  | A part following &apos;@&apos; should not contain the symbol &apos;@&apos;. | Please fill out this field. |  |" time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Enter User First Name as &quot;Test&quot;." time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Enter User Email Address as &quot;Test@gmail.com&quot;." time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Enter User Password as &quot;&quot;" time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Select Terms &amp; Conditions check box." time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Click on SignUp CTA." time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Verify &quot;&quot; validation message for First Name." time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Verify &quot;&quot; validation message for Email Address." time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Verify &quot;Please fill out this field.&quot; validation message for Password." time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="Then Verify &quot;&quot; user is already existing or not." time="0"/>
+  <testcase classname="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" name="| Test | Test@gmail.com |  |  |  | Please fill out this field. |  |" time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Enter User First Name as &quot;Test&quot;." time="0.001"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Enter User Email Address as &quot;Test@getnada.com&quot;." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Enter User Password as &quot;1234&quot;" time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Select Terms &amp; Conditions check box." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Click on SignUp CTA." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Verify &quot;&quot; validation message for First Name." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Verify &quot;&quot; validation message for Email Address." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Verify &quot;Please match the requested format.&quot; validation message for Password." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="Then Verify &quot;&quot; user is already existing or not." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" name="| Test | Test@getnada.com | 1234 |  |  | Please match the requested format. |  |" time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Enter User First Name as &quot;Test&quot;." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Enter User Email Address as &quot;Test@getnada.com&quot;." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Enter User Password as &quot;12345678&quot;" time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Select Terms &amp; Conditions check box." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Click on SignUp CTA." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Verify &quot;&quot; validation message for First Name." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Verify &quot;&quot; validation message for Email Address." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Verify &quot;&quot; validation message for Password." time="0"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="Then Verify &quot;&quot; user is already existing or not." time="0.001"/>
+  <testcase classname="| Test | Test@getnada.com | 12345678 |  |  |  |  |" name="| Test | Test@getnada.com | 12345678 |  |  |  |  |" time="0.002"/>
+  <testcase classname="Scenario: " name="Then Refresh the page." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Join now button." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Clinician image." time="0.001"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0.002"/>
+  <testcase classname="| Test | seleniumqa | 12345678 |" name="Then Enter User First Name as &quot;Test&quot;." time="0"/>
+  <testcase classname="| Test | seleniumqa | 12345678 |" name="Then Enter Email &quot;seleniumqa&quot;." time="0"/>
+  <testcase classname="| Test | seleniumqa | 12345678 |" name="Then Enter User Password as &quot;12345678&quot;" time="0"/>
+  <testcase classname="| Test | seleniumqa | 12345678 |" name="Then Select Terms &amp; Conditions check box." time="0"/>
+  <testcase classname="| Test | seleniumqa | 12345678 |" name="Then Click on SignUp CTA." time="0.001"/>
+  <testcase classname="| Test | seleniumqa | 12345678 |" name="| Test | seleniumqa | 12345678 |" time="0.001"/>
+  <testcase classname="Scenario: " name="Then Close the Popup alert message." time="0"/>
+  <testcase classname="Scenario: " name="Then click on &quot;Next&quot; button." time="0"/>
+  <testcase classname="Scenario: " name="Then Fill last name and select radio button." time="0"/>
+  <testcase classname="Scenario: " name="Then click on &quot;Next&quot; button." time="0"/>
+  <testcase classname="Scenario: " name="Then Select Degree Title." time="0"/>
+  <testcase classname="Scenario: " name="Then Select Experience Title." time="0"/>
+  <testcase classname="Scenario: " name="Then click on &quot;Next&quot; button." time="0"/>
+  <testcase classname="Scenario: " name="Then Select registarion code as &quot;NO&quot;" time="0"/>
+  <testcase classname="Scenario: " name="Then click on &quot;Next&quot; button." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Finish Button." time="0"/>
+  <testcase classname="Scenario: " name="Then Hover on the profile image icon." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Logout button." time="0.008">
+    <error message="element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;169.254.33.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54771}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4a4abf86d1430fc887c6017109ea04a8" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;169.254.33.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54771}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4a4abf86d1430fc887c6017109ea04a8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at setUpClass.StepDefinition.SignUp_step.setclickmethod(SignUp_step.java:359)
+	at setUpClass.StepDefinition.SignUp_step.logout(SignUp_step.java:323)
+	at ✽.Then Click on Logout button.(src/test/resources/1Signup.feature:54)
+</error>
+  </testcase>
+  <testcase classname="Scenario: " name="Scenario: " time="0.01">
+    <error message="element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;169.254.33.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54771}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4a4abf86d1430fc887c6017109ea04a8" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;169.254.33.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54771}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4a4abf86d1430fc887c6017109ea04a8
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at setUpClass.StepDefinition.SignUp_step.setclickmethod(SignUp_step.java:359)
+	at setUpClass.StepDefinition.SignUp_step.logout(SignUp_step.java:323)
+	at ✽.Then Click on Logout button.(src/test/resources/1Signup.feature:54)
+</error>
+  </testcase>
+  <testcase classname="Scenario: " name="Then Login the application." time="0.025">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()=&apos;Log In&apos;])[2]&quot;}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;169.254.33.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54771}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4a4abf86d1430fc887c6017109ea04a8
+*** Element info: {Using=xpath, value=(//a[text()=&apos;Log In&apos;])[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()=&apos;Log In&apos;])[2]&quot;}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;169.254.33.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54771}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4a4abf86d1430fc887c6017109ea04a8
+*** Element info: {Using=xpath, value=(//a[text()=&apos;Log In&apos;])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at setUpClass.StepDefinition.SignUp_step.login(SignUp_step.java:331)
+	at ✽.Then Login the application.(src/test/resources/1Signup.feature:57)
+</error>
+    <system-err>May 02, 2019 1:53:08 PM setUpClass.StepDefinition.TakeImageStep tearDown
+INFO: Scenario failed, now taking screenshot
+</system-err>
+  </testcase>
+  <testcase classname="Scenario: " name="Scenario: " time="0.025">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()=&apos;Log In&apos;])[2]&quot;}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;169.254.33.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54771}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4a4abf86d1430fc887c6017109ea04a8
+*** Element info: {Using=xpath, value=(//a[text()=&apos;Log In&apos;])[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a[text()=&apos;Log In&apos;])[2]&quot;}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
+System info: host: &apos;AMW-G1&apos;, ip: &apos;169.254.33.173&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54771}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 4a4abf86d1430fc887c6017109ea04a8
+*** Element info: {Using=xpath, value=(//a[text()=&apos;Log In&apos;])[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+	at setUpClass.StepDefinition.SignUp_step.login(SignUp_step.java:331)
+	at ✽.Then Login the application.(src/test/resources/1Signup.feature:57)
+</error>
+  </testcase>
+  <testcase classname="Scenario: " name="When Add the new &quot;Add Patient&quot;." time="0"/>
+  <testcase classname="Scenario: " name="Then Enter &quot;FirstName&quot; and &quot;LastName&quot;." time="0"/>
+  <testcase classname="Scenario: " name="Then Select Gender" time="0"/>
+  <testcase classname="Scenario: " name="Then Enter Email address." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Next &quot;Next&quot; button." time="0"/>
+  <testcase classname="Scenario: " name="Then Enter user Height and Weight." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Next &quot;Next&quot; button." time="0"/>
+  <testcase classname="Scenario: " name="Then Select main affected body part." time="0"/>
+  <testcase classname="Scenario: " name="Then Select additional involved body part." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Next &quot;Next&quot; button." time="0"/>
+  <testcase classname="Scenario: " name="Then select Related symptoms." time="0"/>
+  <testcase classname="Scenario: " name="Then Select patient suffered from this problem option." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on create care plan &quot;create care plan&quot;." time="0"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0.001"/>
+  <testcase classname="Scenario: " name="When Click on play LIBRARY &quot;LIBRARY&quot; button." time="0"/>
+  <testcase classname="Scenario: " name="Then Click on Add Workout button." time="0"/>
+  <testcase classname="Scenario: " name="Then Enter Workout name." time="0"/>
+  <testcase classname="Scenario: " name="Then Select the Muscles strength." time="0"/>
+  <testcase classname="Scenario: " name="Then Finish the workout." time="0"/>
+  <testcase classname="Scenario: " name="Scenario: " time="0"/>
+  <testcase classname="Scenario: Assign workout to a patient." name="When Click on attach &quot;attach&quot; icon." time="0">
+    <failure message="attach icon is not displayed" type="java.lang.AssertionError">java.lang.AssertionError: attach icon is not displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at setUpClass.StepDefinition.Assignworkout_Patient.click_on_icon(Assignworkout_Patient.java:37)
+	at ✽.When Click on attach &quot;attach&quot; icon.(src/test/resources/4Assignworkout_to_ a_patient.feature:4)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Assign workout to a patient." name="Scenario: Assign workout to a patient." time="0">
+    <failure message="attach icon is not displayed" type="java.lang.AssertionError">java.lang.AssertionError: attach icon is not displayed
+	at org.junit.Assert.fail(Assert.java:88)
+	at setUpClass.StepDefinition.Assignworkout_Patient.click_on_icon(Assignworkout_Patient.java:37)
+	at ✽.When Click on attach &quot;attach&quot; icon.(src/test/resources/4Assignworkout_to_ a_patient.feature:4)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Assign workout to a patient." name="Then Click on patientItem list." time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Assign workout to a patient." name="Then Click on Assign to patients Button." time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Assign workout to a patient." name="Then Click on Procced &quot;Procced&quot; option." time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Assign workout to a patient." name="Then Select the current date and select the start time." time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Assign workout to a patient." name="Then Submit the applicaton." time="0.005">
+    <skipped/>
+  </testcase>
+</testsuite>

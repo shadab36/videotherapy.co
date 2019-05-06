@@ -8,7 +8,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -24,6 +25,8 @@ public class Add_Workout extends BrowserSetUp{
 	@When("^Click on play LIBRARY \"([^\"]*)\" button\\.$")
 	public void click_on_play_button(String arg1){
 		  driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
+		  
+		  
 			try {
 						
 				for(int i=0; i<4; i++) {
@@ -35,7 +38,8 @@ public class Add_Workout extends BrowserSetUp{
 			}
 			
 			try {
-				
+				WebDriverWait wait = new WebDriverWait(driver, 60);
+				  wait.until(ExpectedConditions.elementToBeClickable(Add_New_Patient_element.Play_library));
 				webelement= driver.findElement(Add_New_Patient_element.Play_library);
 				webelement.click();
 				Thread.sleep(4000);
@@ -101,8 +105,8 @@ public class Add_Workout extends BrowserSetUp{
 		try {
 			Thread.sleep(2000);
 			List<WebElement> Muscles_strength = driver.findElements(Add_New_Patient_element.Muscles_strength);
-			int randomValue = rad.nextInt(Muscles_strength.size()); // Getting a random value that is between 0 and
-																	// (list's size)-1
+			Thread.sleep(1000);
+			int randomValue = rad.nextInt(Muscles_strength.size()); // Getting a random value that is between 0 and													// (list's size)-1
 			Muscles_strength.get(randomValue).click();
 			Thread.sleep(2000);
 		} catch (Exception e1) {
@@ -134,10 +138,11 @@ public class Add_Workout extends BrowserSetUp{
 		}catch(Exception e) {
 			
 		}
-			
-		
+	
 
 		try {
+			WebDriverWait wait = new WebDriverWait(driver, 60);
+			  wait.until(ExpectedConditions.elementToBeClickable(Add_New_Patient_element.finish));
 		webelement= driver.findElement(Add_New_Patient_element.finish);
 		if(webelement.isDisplayed()) {
 			webelement.click();

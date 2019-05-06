@@ -35,8 +35,8 @@ Scenario Outline: Data driving for valid sign-up.
 	Then Select Terms & Conditions check box. 
 	Then Click on SignUp CTA. 
 	Examples: 
-		|First Name | Email Address       | Password  |
-		|Test       |seleniumqa           |12345678   |		
+		|First Name | Email Address                      | Password  |
+		|Test       |seleniumqa169@getnada.com           |12345678   |		
 		
 @follow_the_instructions 
 Scenario: 

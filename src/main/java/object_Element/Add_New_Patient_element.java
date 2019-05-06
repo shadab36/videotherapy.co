@@ -33,7 +33,7 @@ public class Add_New_Patient_element {
 	public static By check_box=By.cssSelector("div.patientItem>label>input");
 	public static By Assign_patient=By.xpath("//span[@class='title'][text()='Assign to patients']");
 	public static By Proceed=By.xpath("//span[text()='Proceed']");
-	public static By Current_Day=By.cssSelector("div.rbc-current");
+	public static By Current_Day=By.cssSelector("div.rbc-event-content-inner.training");
 	public static By start_time=By.xpath("(//input[@type='text'])[3]");
 	public static By time=By.xpath("//span[text()='30']");
 	public static By ok=By.xpath("//span[text()='OK']");

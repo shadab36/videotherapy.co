@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Random;
 
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -22,7 +23,7 @@ public class Add_New_Patient extends BrowserSetUp{
 	PerformAction wait = new PerformAction();
 	Actions a=new Actions (driver);
 	Random rad = new Random();
-	String name = "" + rad.nextInt(100);
+	String name = "" + rad.nextInt(10000);
 	@When("^Add the new \"([^\"]*)\"\\.$")
 	public void add_the_new(String arg1) throws Throwable {
 		WebDriverWait wait1 = new WebDriverWait(driver, 30);
@@ -110,7 +111,7 @@ public class Add_New_Patient extends BrowserSetUp{
 	public void enter_Email_address() throws Throwable {
 		webelement= driver.findElement(Add_New_Patient_element.Email);
 		webelement.click();
-		webelement.sendKeys("qaautomation"+name+"@getnada.com");
+		webelement.sendKeys("Clinician"+name+"@getnada.com");
 		Thread.sleep(1000);
 	}
 
@@ -242,9 +243,25 @@ public class Add_New_Patient extends BrowserSetUp{
 			Related_symptoms.get(random).click();
 			Thread.sleep(2000);
 			
+			
+			
 		}catch(Exception e) {
 			System.out.println(e);
 		} 
+		
+		try {
+				
+			webelement=driver.findElement(By.cssSelector("div.durationValueWrapper>div>div>input"));
+			if(webelement.isDisplayed()) {
+				webelement.click();
+				Thread.sleep(500);
+				webelement.sendKeys("1");
+				Thread.sleep(500);
+			}
+	}catch(Exception year) {
+		System.out.println(year);
+	}
+
 	try {
 		List<WebElement> Radio=driver.findElements(Add_New_Patient_element.Radio_button);	
 		int randomValue = rad.nextInt(Radio.size()); // Getting a random value that is between 0 and (list's size)-1
